@@ -1,0 +1,320 @@
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+
+
+h1 {
+    font-size: 4em;
+    /*    color: #fff;*/
+    color: rgba(254, 97, 72, 1);
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/*nawigacja*/
+
+#main-nav {
+    background-color: rgba(37, 33, 40, 1);
+    border: none;
+    padding: 20px 0;
+}
+
+#main-nav .container #main-menu>ul>li>a {
+    text-transform: uppercase;
+    font-size: 1.2em;
+    /*    color: #BDBDBD;*/
+    color: rgba(254, 97, 72, 1);
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-nav .container #main-menu>ul>li>a:hover {
+    color: white;
+    cursor: pointer;
+}
+
+
+/*header */
+
+header#home {
+    background-image: url(../img/tlo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+header#home .container-fluid {
+    background-color: rgba(37, 33, 40, 0.5);
+    height: 100%;
+}
+
+header#home .header-caption>h1 {
+    padding-top: 300px;
+}
+
+header#home .header-caption>p {
+    font-size: 2em;
+    font-family: 'Courgette', cursive;
+}
+
+
+/*treningi*/
+
+#treningi .container-fluid {
+   
+    background-color:  rgba(254, 97, 72, 1);
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+#treningi{
+    background-image: url(../img/pexels-photo-421160.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+#treningi .container-fluid{
+    background-color: rgba(37, 33, 40, 0.7);
+    height: 100%;
+    width: 100%;
+}
+
+
+
+#treningi .container-fluid .row .col-sm-6 {
+    padding: 150px 0;
+    background-position: center;
+    background-size: cover;
+}
+
+#treningi .container-fluid .row .col-sm-6 > h2{
+    padding-bottom: 20px;
+    color: rgba(254, 97, 72, 1);
+    font-weight: 700;
+     
+}
+
+#treningi .container-fluid .row .col-sm-6 > p {
+    padding : 0 70px;
+    color:white;
+   
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+
+
+/*sekcja o mnie*/
+
+section#about {
+    
+    background-image: url(../img/tom.jpg);
+    background-size: cover;
+    background-position: center;
+     
+}
+
+
+
+#about .container-fluid {
+    padding: 120px 0 200px 50px;
+    background-color: rgba(37, 33, 40, 0.7);
+    height: 100%;
+    width: 100%;
+}
+
+#about .container-fluid .row>h1 {
+    padding-bottom: 30px;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+#about .container-fluid .row .tekst>p {
+    font-size: 1em;
+    padding-right: 100px;
+   
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*sekcja liczby*/
+
+#liczby .container-fluid {
+    padding-bottom: 10%;
+    background-color: rgba(254, 97, 72, 1);
+}
+
+#liczby .container-fluid .row .col-sm-3>h2 {
+    color: #000;
+    /*
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Lato', sans-serif;
+*/
+    font-family: 'Roboto', sans-serif;
+    font-size: 4em;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+    padding-top: 30%;
+}
+
+#liczby .container-fluid .row .col-sm-3>p {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 1.2em;
+}
+
+
+/*sekcja tel*/
+
+#tel {
+    /*    background-color: rgba(37, 33, 40, 1);*/
+    padding-top: 0;
+}
+
+#tel .tel-inner {
+    padding: 100px 0;
+}
+
+#tel .tel-inner>h1 {
+    font-size: 2em;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    */ font-family: 'Lato', sans-serif;
+}
+
+#tel .tel-inner>h2 {
+    font-size: 1.5em;
+}
+
+
+/*gdzie trenuje*/
+
+#gym {
+    background-image: url(../img/gym.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#gym .container-fluid {
+    background-color: rgba(37, 33, 40, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+#gym .container-fluid .tytul >h1 {
+    font-size: 3em;
+    padding-top: 100px;
+}
+
+#gym .container-fluid .row>p {
+    font-size: 1.5em;
+}
+
+
+/*contact*/
+
+#contact {
+    background-color: rgba(254, 97, 72, 1);
+    padding: 100px 0;
+    color: rgba(37, 33, 40, 0.7);
+}
+
+#contact .container .col-sm-6 .row>h2 {
+    color: rgba(37, 33, 40, 0.9);
+    font-size: 3em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#contact .container .col-sm-6 .row>p {
+    color: rgba(37, 33, 40, 0.9);
+    font-size: 1.6em;
+    font-weight: 600;
+}
+
+#contact .container .col-sm-6 .ask {
+    padding: 40px 0;
+}
+
+#contact .container .col-sm-6 .ikony {
+    padding-top: 50px;
+}
+
+#contact .container .col-sm-6 .ikony a {
+    padding-left: 10px;
+    margin-top: 40px;
+}
+
+#contact .container .col-sm-6 .ikony a>i.fa {
+    font-size: 2em;
+    color: rgba(37, 33, 40, 0.9);
+}
+
+#contact .container .col-sm-6 .ikony a>i.fa:hover {
+    /*    color: #fff;*/
+    transform: scale(1.5);
+}
+
+#contact .container .kontakt input:not([type='submit']),
+#contact textarea {
+    width: 100%;
+    border: 2px solid rgba(37, 33, 40, 0.9);
+    background-color: rgba(254, 97, 72, 1);
+    color: #fff;
+}
+
+#contact input,
+#contact textarea {
+    text-transform: uppercase;
+    padding: 7px;
+    background-color: rgba(254, 97, 72, 1);
+}
+
+#contact input:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+#contact input[type='submit'] {
+    margin-top: 20px;
+    background-color: rgba(37, 33, 40, 0.9);
+    padding: 15px;
+    font-weight: 500;
+    font-size: 1.3em;
+    color: #fff;
+    border: none;
+}
+
+#contact input[type='submit']:hover {
+    color: rgba(37, 33, 40, 0.9);
+    background-color: rgba(254, 97, 72, 1);
+    border: 2px solid rgba(37, 33, 40, 0.9);
+    font-weight: 700;
+}
